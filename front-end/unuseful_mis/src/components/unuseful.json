@@ -1,0 +1,65 @@
+{
+  "data": {
+    "original": {
+      "birthday": "2018-06-15",
+      "clazzId": 1,
+      "id": 1,
+      "name": "fuchuan",
+      "nation": "中国",
+      "native": "北京",
+      "sex": "男"
+    },
+    "row": {
+      "_original": {
+        "birthday": "2018-06-15",
+        "clazzId": 1,
+        "id": 1,
+        "name": "fuchuan",
+        "nation": "中国",
+        "native": "北京",
+        "sex": "男"
+      },
+      "_index": 0,
+      "_nestingLevel": 0,
+      "id": 1,
+      "name": "fuchuan",
+      "sex": "男",
+      "birthday": "2018-06-15",
+      "nation": "中国",
+      "native": "北京",
+      "clazzId": 1,
+      "_viewIndex": 0
+    },
+    "index": 0,
+    "viewIndex": 0,
+    "pageSize": 10,
+    "page": 0,
+    "level": 0,
+    "nestingPath": [0],
+    "column": {
+      "Header": "name",
+      "show": true,
+      "minWidth": 100,
+      "className": "",
+      "style": {},
+      "headerClassName": "",
+      "headerStyle": {},
+      "footerClassName": "",
+      "footerStyle": {},
+      "filterAll": false,
+      "id": "name"
+    },
+    "value": "fuchuan",
+    "resized": [],
+    "show": true,
+    "width": 100,
+    "tdProps": {
+      "rest": {}
+    },
+    "columnProps": {
+      "rest": {}
+    },
+    "classes": [null, "", null],
+    "styles": {}
+  }
+}

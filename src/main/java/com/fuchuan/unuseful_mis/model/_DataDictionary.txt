@@ -1,0 +1,46 @@
+Table: clazz
+-----------+------------------+------+-----+---------+---------
+ Field     | Type             | Null | Key | Default | Remarks 
+-----------+------------------+------+-----+---------+---------
+ id        | INT UNSIGNED(10) | NO   | PRI |         |         
+ name      | VARCHAR(32)      | NO   |     |         |         
+ institute | VARCHAR(64)      | NO   |     |         |         
+ grade     | VARCHAR(32)      | NO   |     |         |         
+ num       | INT UNSIGNED(10) | NO   |     |         |         
+-----------+------------------+------+-----+---------+---------
+
+Table: course
+-------------+------------------+------+-----+---------+---------
+ Field       | Type             | Null | Key | Default | Remarks 
+-------------+------------------+------+-----+---------+---------
+ id          | INT UNSIGNED(10) | NO   | PRI |         |         
+ name        | VARCHAR(100)     | NO   |     |         |         
+ creditHour  | DOUBLE(22)       | NO   |     |         |         
+ courseHour  | DOUBLE(22)       | NO   |     |         |         
+ priorCourse | INT UNSIGNED(10) | YES  |     |         |         
+-------------+------------------+------+-----+---------+---------
+
+Table: score
+-----------+------------------+------+-----+---------+---------
+ Field     | Type             | Null | Key | Default | Remarks 
+-----------+------------------+------+-----+---------+---------
+ id        | INT UNSIGNED(10) | NO   | PRI |         |         
+ courseId  | INT UNSIGNED(10) | NO   |     |         |         
+ studentId | INT UNSIGNED(10) | NO   |     |         |         
+ term      | VARCHAR(100)     | NO   |     |         |         
+ score     | DOUBLE(22)       | NO   |     |         |         
+-----------+------------------+------+-----+---------+---------
+
+Table: student
+----------+------------------+------+-----+---------+---------
+ Field    | Type             | Null | Key | Default | Remarks 
+----------+------------------+------+-----+---------+---------
+ id       | INT UNSIGNED(10) | NO   | PRI |         |         
+ name     | VARCHAR(32)      | NO   |     |         |         
+ sex      | VARCHAR(2)       | NO   |     | 男       |         
+ birthday | DATE(10)         | NO   |     |         |         
+ nation   | VARCHAR(32)      | NO   |     |         |         
+ native   | VARCHAR(32)      | NO   |     |         |         
+ clazzId  | INT UNSIGNED(10) | NO   |     |         |         
+----------+------------------+------+-----+---------+---------
+
