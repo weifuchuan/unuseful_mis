@@ -7,3 +7,5 @@
 数据库：MySQL。
 
 前端React(TypeScript)。单页应用。
+
+前端代码在./front-end/unuseful_mis。
